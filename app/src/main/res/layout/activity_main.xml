@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:id="@+id/ColorTV"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:textSize="20dp"
+            >
+
+        </TextView>
+
+
+    <Button
+        android:id="@+id/Rbtn"
+        android:layout_width="177dp"
+        android:layout_height="match_parent"
+        android:textColor="#ff0000"
+        android:onClick="onclick"
+        android:text="RED" />
+
+    <Button
+        android:layout_width="177dp"
+        android:layout_height="match_parent"
+        android:text="BLUE"
+        android:textColor="#0015ff"
+        android:id="@+id/Bbtn"
+        android:onClick="onclick"
+        />
+
+
+    <Button
+        android:id="@+id/Gbtn"
+        android:layout_width="177dp"
+        android:layout_height="match_parent"
+        android:textColor="#11ff00"
+        android:onClick="onclick"
+        android:text="GREEN" />
+
+    <Button
+        android:id="@+id/Tbtn"
+        android:layout_width="177dp"
+        android:layout_height="match_parent"
+        android:onClick="onclick"
+        android:text="Temp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Hbtn"
+        android:layout_width="177dp"
+        android:layout_height="match_parent"
+        android:onClick="onclick"
+        android:text="Humidity"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+         />
+
+    <TextView
+        android:id="@+id/HTV"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+
+</LinearLayout>
