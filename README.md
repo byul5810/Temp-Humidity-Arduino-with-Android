@@ -9,6 +9,8 @@ a temperature and humitity in the mobile device
 ### App Details
 - The device is capable of displaying the temperature and humidity
 data of the current location to the mobile device using.
+- Depends on the temperature and humidity, Arduino device turn on the diffrent light on the breadboard.
+
 
 ### Skills
 - Android
